@@ -53,8 +53,15 @@ display:flex;
 justify-content:space-around;
 margin-top:20px;
 }
-
+.icons img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
 .icons a{
+display: flex;
+align-items: center;
+justify-content: center;
 font-size:26px;
 text-decoration:none;
 }
@@ -73,16 +80,21 @@ text-decoration:none;
 
 <div class="icons">
 <a href="tel:+254707245305">📞</a>
-
+ <a href="https://wa.me/254790828260?text=Hello,%20my%20name%20is%20[Your%20Name],%20I%20work%20at%20[Company],%20and%20we%20met%20during%20[Event]%20at%20[Location]." target="_blank">
+  <img src="wa.jpeg" alt="WhatsApp">
+</a>
 <a href="mailto:vincent@gam-greenatmind.com">✉</a>
 
 <a href="https://www.gam-greenatmind.com">🌐</a>
 
 <a href="https://linkedin.com/in/vincent-ubeling-26a350243">💼</a>
+ 
 
 </div>
 
 </div>
-
+<script>
+  const img = '/wa.jpeg'
+</script>
 </body>
 </html>
